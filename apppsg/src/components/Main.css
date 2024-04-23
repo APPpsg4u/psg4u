@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+html{
+  font-family:'karla';
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+    margin-right: 100px;
+}
+  
+ul{   
+    margin-right: 20px;
+    list-style-type: none;
+    padding : 0;
+}
+li:hover{
+    text-decoration: underline;
+    cursor : pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width:18%;
+    margin: 10px 0 0 10px;
+}
+.logout{
+    border-radius: 45px;
+    background-color: #6C8BBA;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.logout:hover{
+  text-decoration: none;
+}
+.home{
+  position: relative;
+  top: 10px;
+  left: 15px;
+  width: 35px;
+  height: 35px;
+}
+.person{
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+}
+.studies{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.715), rgba(255, 255, 255, 0.715)),  url('./mainimg.png');
+  width: 75%;
+  height: 430px;
+  margin-left: 13%;
+  margin-top: 5%;
+  background-size: cover;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.studies p{
+  margin-left: 30%;
+  padding: 20px;
+}
+.emoji1{
+  position: absolute;
+  top: 35%;
+  left: 33%;
+  width: 40px;
+  height: 40px;
+}
+.emoji2{
+  position: absolute;
+  top: 46%;
+  left: 33%;
+  width: 40px;
+  height: 40px;
+}
+.emoji3{
+  position: absolute;
+  top: 58%;
+  left: 33%;
+  width: 40px;
+  height: 40px;
+}
+.emoji4{
+  position: absolute;
+  top: 69%;
+  left: 33%;
+  width: 40px;
+  height: 40px;
+}
+.studies .title{
+  width: 140px;
+  height: 60px;
+  background-color: #699BF773;
+  position:relative;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.clip{
+  position:absolute;
+  top: 120px;
+  width: 80px;
+  height: 80px;
+}
+#query{
+  height: 250px;
+}
+#canteen{
+  height: 250px;
+  margin-bottom: 100px;
+}
+#query .emoji1{
+  top: 104%;
+}
+#query .emoji2{
+  top: 116%;
+}
+#canteen .emoji1{
+  top: 149%;
+}
+#canteen .emoji2{
+  top: 161%;
+}
+#query .clip{
+  top: 84%;
+}
+#canteen .clip{
+  top: 130%;
+}
+#query .title{
+  background-color: #F7696933;
+
+}
+#canteen .title{
+  background-color: #4DC16733;
+}
