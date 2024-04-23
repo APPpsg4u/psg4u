@@ -6,7 +6,7 @@ function ConfirmPassword(){
         <div className="confirmpassword">
             <div className="cpPage">
             <div class="leftSide">
-            <nav>
+            <nav className="confirmnav">
                 <img src='/images/logo_psg4u.png' alt='psg4u logo' />
             </nav>
             <p class="tagline">FIND</p>

@@ -7,7 +7,7 @@ function Login(){
         <div className="login">
             <div className="loginPage">
             <div class="leftSide">
-            <nav>
+            <nav className="loginnav">
                 <img src='images/logo_psg4u.png' alt='psg pencil sketch' />
             </nav>
             <p class="tagline">FIND</p>
@@ -45,7 +45,7 @@ function Login(){
                         <input type="password" name="password" className="input"/>
                     </div>
                     </div>
-                    <button type="submit" class="submit">Submit</button>
+                    <button type="submit" class="submit"><Link to={'/main'} class="link">Submit</Link></button>
                     <Link to={'forgotpassword'} class="link">Forgot Password?</Link>
                 </form>
             </div>

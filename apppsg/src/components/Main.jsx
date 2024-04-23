@@ -1,20 +1,20 @@
 import React from 'react'
 import './Main.css';
-import logo from './logo_psg4u.png'
-import homelogo from './homelogo.png'
-import personlogo from './personlogo.png'
-import emoji from './emoji.png'
-import clip from './clip.png'
+import logo from './images/logo_psg4u.png'
+import homelogo from './images/homelogo.png'
+import personlogo from './images/personlogo.png'
+import emoji from './images/emoji.png'
+import clip from './images/clip.png'
 
 export const Main = () => {
   return (
     <div className='main'>
-      <nav>
-      <img src={logo} alt="PSG4U Logo" />
+      <nav className='navbar'>
+      <img src={logo} alt="PSG4U Logo" className='homelogo'/>
         <ul>
-          <img src={homelogo} className='home'/>
+          <img src={homelogo} className='homeimg'/>
           <li>Home</li>
-          <img src={personlogo} className='person'/>
+          <img src={personlogo} className='personimg'/>
           <li>My account</li>
           <li className='logout'>Logout</li>
         </ul>
@@ -57,7 +57,10 @@ export const Main = () => {
             <img src={emoji} className='emoji2'/>
             <p>Afternoon menu</p>    
         </div>
-     
+        <footer className='mainfooter'>
+                <p>&#169; PSG College of Technology</p>
+                <p class="help">Help & Support @contact_details</p>
+        </footer>
     </div>
   )
 }

@@ -7,7 +7,7 @@ function ForgotPassword(){
         <div className="forgotpassword">
             <div className="fpPage">
             <div class="leftSide">
-            <nav>
+            <nav className="forgotnav">
                 <img src='/images/logo_psg4u.png' alt='psg4u logo' />
             </nav>
             <p class="tagline">FIND</p>

@@ -4,6 +4,7 @@ import Home from "./components/Home.jsx";
 import Login from "./components/Login.jsx";
 import ForgotPassword from "./components/ForgotPassword";
 import ConfirmPassword from './components/ConfirmPassword.jsx';
+import { Main } from './components/Main.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/login/forgotpassword" element={<ForgotPassword />} />
           <Route path="/confirmpassword" element={<ConfirmPassword />} />
+          <Route path="/main" element={<Main />} />
         </Routes>
       </Router>
     </div>
