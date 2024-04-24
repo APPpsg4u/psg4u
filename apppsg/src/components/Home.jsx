@@ -15,7 +15,7 @@ const Home = () => {
     <div className = "home">
       <h1>THE STUDENT'S SPACE</h1>
       <i>Where all the needs are met</i>
-      <button>Login</button>
+      <button>Login </button>
     </div>
     </div>
   )
