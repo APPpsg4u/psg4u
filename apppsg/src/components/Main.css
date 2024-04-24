@@ -32,7 +32,7 @@ html{
     border-radius: 45px;
     background-color: #6C8BBA;
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     cursor: pointer;
     padding-left: 35px;
     padding-right: 35px;
@@ -40,6 +40,8 @@ html{
 }
 .navbar .logout:hover{
   text-decoration: none;
+  background-color: #000000;
+  color: #6C8BBA;
 }
 .homeimg{ 
   position: relative;

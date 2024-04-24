@@ -29,7 +29,7 @@ export const Main = () => {
             <img src="/images/emoji.png" className='emoji3' alt='emoji3'/>
             <p>Book a classroom for pre-works</p>
             <img src="/images/emoji.png" className='emoji4' alt='emoji4'/>
-            <p><Link to={'/events'}>Event updates</Link></p>      
+            <p><Link to={'/events'} class="link">Event updates</Link></p>      
         </div>
 
         <div className='studies' id='query'>
@@ -38,7 +38,7 @@ export const Main = () => {
             
 
             <img src="/images/emoji.png" className='emoji1' alt='emoji1'/>
-            <p><Link to={'/raisequery'}>Raise Query about components</Link></p>
+            <p><Link to={'/raisequery'} class="link">Raise Query about components</Link></p>
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
             <p>Lost and found</p>
                
@@ -50,9 +50,9 @@ export const Main = () => {
             
 
             <img src="/images/emoji.png" className='emoji1' alt='emoji1'/>
-            <p>Morning menu</p>
+            <p><Link to={'/morningmenu'} class="link">Morning menu</Link></p>
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
-            <p>Afternoon menu</p>    
+            <p><Link to={'/afternoonmenu'} class="link">Afternoon menu</Link></p>    
         </div>
         <Footer />
     </div>
