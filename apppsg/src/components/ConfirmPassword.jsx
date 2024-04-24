@@ -1,5 +1,6 @@
 import React from "react";
 import './ConfirmPassword.css';
+import {Link} from "react-router-dom";
 
 function ConfirmPassword(){
     return (
@@ -13,7 +14,6 @@ function ConfirmPassword(){
             <p class="tagline">CONNECT</p>
             <p class="tagline">SCHEDULE</p>
             </div>    
-            
             <div className="cpForm">
                 <h1>Confirm Password</h1>
                 <form>
@@ -35,7 +35,7 @@ function ConfirmPassword(){
                     </label>
                     <input type="password" name="password" className="input"/>
                     </div>
-                    <button type="submit" class="submit">Confirm</button>
+                    <button type="submit" class="submit"><Link to={'/login'}>Confirm</Link></button>
                 </form>
             </div>
             </div>

@@ -47,6 +47,7 @@ html{
   left: 20px;
   width: 35px;
   height: 35px;
+  margin-right:8px;
 }
 .personimg{
   position: relative;
@@ -54,9 +55,10 @@ html{
   left: 20px;
   width: 35px;
   height: 35px;
+  margin-right:8px;
 }
 .studies{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.715), rgba(255, 255, 255, 0.715)),  url('./images/mainimg.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.715), rgba(255, 255, 255, 0.715)),  url('../../public/images/mainimg.png');
   width: 75%;
   height: 435px;
   margin-left: 13%;
