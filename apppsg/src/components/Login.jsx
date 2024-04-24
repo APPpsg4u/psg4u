@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import './Login.css';
+import Footer from "./Footer";
 
 function Login(){
     return (
@@ -50,10 +51,7 @@ function Login(){
                 </form>
             </div>
             </div>
-            <footer>
-                <p>&#169; PSG College of Technology</p>
-                <p class="help">Help & Support @contact_details</p>
-            </footer>
+            <Footer />
         </div>
     )
 }

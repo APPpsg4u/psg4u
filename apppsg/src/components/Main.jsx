@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css';
 import {Link} from "react-router-dom";
+import Footer from "./Footer";
 
 export const Main = () => {
   return (
@@ -37,7 +38,7 @@ export const Main = () => {
             
 
             <img src="/images/emoji.png" className='emoji1' alt='emoji1'/>
-            <p>Raise Query about components</p>
+            <p><Link to={'/raisequery'}>Raise Query about components</Link></p>
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
             <p>Lost and found</p>
                
@@ -53,10 +54,7 @@ export const Main = () => {
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
             <p>Afternoon menu</p>    
         </div>
-        <footer className='mainfooter'>
-                <p>&#169; PSG College of Technology</p>
-                <p class="help">Help & Support @contact_details</p>
-        </footer>
+        <Footer />
     </div>
   )
 }

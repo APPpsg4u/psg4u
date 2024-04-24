@@ -1,6 +1,7 @@
 import React from "react";
 import './ForgotPassword.css';
 import {Link} from "react-router-dom";
+import Footer from "./Footer";
 
 function ForgotPassword(){
     return (
@@ -34,10 +35,7 @@ function ForgotPassword(){
                 </form>
             </div>
             </div>
-            <footer>
-                <p>&#169; PSG College of Technology</p>
-                <p class="help">Help & Support @contact_details</p>
-            </footer>
+            <Footer />
         </div>
     )
 }
