@@ -1,12 +1,14 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import './Login.css';
+import Footer from "./Footer";
 
 function Login(){
     return (
         <div className="login">
             <div className="loginPage">
             <div class="leftSide">
-            <nav>
+            <nav className="loginnav">
                 <img src='images/logo_psg4u.png' alt='psg pencil sketch' />
             </nav>
             <p class="tagline">FIND</p>
@@ -44,15 +46,12 @@ function Login(){
                         <input type="password" name="password" className="input"/>
                     </div>
                     </div>
-                    <button type="submit" class="submit">Submit</button>
-                    <a class="link" href="">Forgot Password?</a>
+                    <button type="submit" class="submit"><Link to={'/main'} class="link">Submit</Link></button>
+                    <Link to={'forgotpassword'} class="link">Forgot Password?</Link>
                 </form>
             </div>
             </div>
-            <footer>
-                <p>&#169; PSG College of Technology</p>
-                <p class="help">Help & Support @contact_details</p>
-            </footer>
+            <Footer />
         </div>
     )
 }

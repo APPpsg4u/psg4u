@@ -1,37 +1,42 @@
 import React from "react";
-import './ForgotPassword.css';
+import './ConfirmPassword.css';
 import {Link} from "react-router-dom";
-import Footer from "./Footer";
+import Footer from './Footer';
 
-function ForgotPassword(){
+function ConfirmPassword(){
     return (
-        <div className="forgotpassword">
-            <div className="fpPage">
+        <div className="confirmpassword">
+            <div className="cpPage">
             <div class="leftSide">
-            <nav className="forgotnav">
+            <nav className="confirmnav">
                 <img src='/images/logo_psg4u.png' alt='psg4u logo' />
             </nav>
             <p class="tagline">FIND</p>
             <p class="tagline">CONNECT</p>
             <p class="tagline">SCHEDULE</p>
             </div>    
-            
-            <div className="fpForm">
-                <h1>Forgot Password</h1>
+            <div className="cpForm">
+                <h1>Confirm Password</h1>
                 <form>
                     <div className="row">
                     <label>
-                        Email:
+                        User ID:
                     </label>
                     <input type="text" name="name" className="input"/>
                     </div>
                     <div className="row">
                     <label>
-                        OTP:
+                        Password:
                     </label>
                     <input type="password" name="password" className="input"/>
                     </div>
-                    <button type="submit" class="submit"><Link to={'/confirmpassword'} className="link">Verify</Link></button>
+                    <div className="row">
+                    <label>
+                        Re-enter password:
+                    </label>
+                    <input type="password" name="password" className="input"/>
+                    </div>
+                    <button type="submit" class="submit"><Link to={'/login'}>Confirm</Link></button>
                 </form>
             </div>
             </div>
@@ -40,4 +45,4 @@ function ForgotPassword(){
     )
 }
 
-export default ForgotPassword
+export default ConfirmPassword
