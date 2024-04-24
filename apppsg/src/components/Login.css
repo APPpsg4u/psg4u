@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 body{
-    background-image: url('D:\\Study\\External\\Web Development Projects\\APP\\psg4u\\psg4u\\apppsg\\public\\images\\pencil_sketch.png');
+    background-image: url("C:\Users\abina\OneDrive\Documents\react_trial\APP_psg4U\psg4u\apppsg\public\images\pencil_sketch.png");
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
