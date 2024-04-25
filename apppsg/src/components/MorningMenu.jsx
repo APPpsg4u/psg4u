@@ -9,8 +9,11 @@ export const MorningMenu = () => {
   const [fshow,fsetshow] = useState(false);
 
   const bshowname =()=>{
-    if(bshow === true){}
-    else{    
+    if(bshow === true){document.getElementById('b').style.fontWeight = "bold"}
+    else{   
+      document.getElementById('b').style.fontWeight = "bold" 
+      document.getElementById('s').style.fontWeight = "normal"
+      document.getElementById('f').style.fontWeight = "normal"
       bsetshow(true)
       ssetshow(false)
       fsetshow(false)
@@ -19,6 +22,9 @@ export const MorningMenu = () => {
   const sshowname =()=>{
     if(sshow === true){}
     else{
+      document.getElementById('b').style.fontWeight = "normal" 
+      document.getElementById('s').style.fontWeight = "bold"
+      document.getElementById('f').style.fontWeight = "normal"
       ssetshow(true)
       fsetshow(false)
       bsetshow(false)
@@ -27,6 +33,9 @@ export const MorningMenu = () => {
   const fshowname =()=>{
     if(fshow === true){}
     else{
+      document.getElementById('b').style.fontWeight = "normal" 
+      document.getElementById('s').style.fontWeight = "normal"
+      document.getElementById('f').style.fontWeight = "bold"
       fsetshow(true)
       bsetshow(false)
       ssetshow(false)
@@ -49,9 +58,9 @@ export const MorningMenu = () => {
       <div className='foodmrng'>
         <nav>
           <ul className='foodmenu'>
-            <li onClick={bshowname}>BREAKFAST</li>
-            <li onClick={sshowname}>SNACKS</li>
-            <li onClick={fshowname}>FRESH JUICES & MILKSHAKES</li>
+            <li onClick={bshowname} id='b'>BREAKFAST</li>
+            <li onClick={sshowname} id='s'>SNACKS</li>
+            <li onClick={fshowname} id='f'>FRESH JUICES & MILKSHAKES</li>
           </ul>
         </nav>
         {
