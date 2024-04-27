@@ -58,8 +58,8 @@ export const Main = () => {
             <img src="/images/emoji.png" className='emoji1' alt='emoji1'/>
             <p><Link to={'/raisequery'} class="link">Raise Query about components</Link></p>
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
-            <p>Lost and found</p>
-               
+            <p><Link to={'/lostandfound'} class='link'>Lost and found</Link></p>
+                
         </div>
 
         <div className='studies' id='canteen'>

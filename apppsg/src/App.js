@@ -9,6 +9,7 @@ import Events from './components/Events';
 import RaiseQuery from "./components/RaiseQuery";
 import { MorningMenu } from './components/MorningMenu.jsx';
 import { AfternoonMenu } from './components/AfternoonMenu.jsx';
+import { LostandFound } from './components/LostandFound.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/raisequery" element={<RaiseQuery />} />
           <Route path="/morningmenu" element={<MorningMenu />} />
           <Route path="/afternoonmenu" element={<AfternoonMenu />}/>
+          <Route path="/lostandfound" element={<LostandFound />} />
         </Routes>
       </Router>
     </div>
