@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 body{
-    /*background-image: url('../../public/images/pencil_sketch.png');*/
+    background-image: url('../../public/images/pencil_sketch.png');
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -76,16 +76,27 @@ form{
 .submit{
     background-color:#D0E1FB;
     border-radius:40px;
+    color:black;
     border:2px solid black;
     width:190px;
     height:74px;
     font-size:20px;
     align-self:center;
     box-shadow:0px 4px 5px #000000;
+    transition:all 0.2s;
+}
+.submit:hover{
+    color:#D0E1FB;
+    background-color: black;
 }
 .link{
     color:black;
     font-size:20px;
     align-self:center;
+    transition:all  0.3s;
+}
+.link:hover{
+    color:#D0E1FB;
     text-decoration:underline;
+    text-decoration-color: #000000;
 }

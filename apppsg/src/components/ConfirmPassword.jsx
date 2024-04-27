@@ -24,18 +24,21 @@ function ConfirmPassword(){
                     </label>
                     <input type="text" name="name" className="input"/>
                     </div>
+
                     <div className="row">
                     <label>
                         Password:
                     </label>
                     <input type="password" name="password" className="input"/>
                     </div>
+
                     <div className="row">
                     <label>
                         Re-enter password:
                     </label>
                     <input type="password" name="password" className="input"/>
                     </div>
+                    
                     <button type="submit" class="submit"><Link to={'/login'}>Confirm</Link></button>
                 </form>
             </div>
