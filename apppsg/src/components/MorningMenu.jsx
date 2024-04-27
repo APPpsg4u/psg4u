@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './MorningMenu.css';
 import Footer from "./Footer";
+import { Link } from 'react-router-dom';
 
 export const MorningMenu = () => {
 
@@ -49,7 +50,7 @@ export const MorningMenu = () => {
         <div className="nav-list-events">
             <div className="nav">
                 <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
-                <a href="#home">Home</a>
+                <a href='#home'><Link to={'/main'} class='link'>Home</Link></a>
             </div>
             <button className="logout-button">Logout</button>
         </div>
