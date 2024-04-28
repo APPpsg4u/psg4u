@@ -1,12 +1,25 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
+import {Link} from "react-router-dom";
 import "./RaiseQuery.css";
 
 function RaiseQuery() {
     return (
         <div className="raise-query-page">
-            <Navbar />
+            <nav className="raiseQueryBar">
+                <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
+                <div className="nav-list-raise-query">
+                    <div className="nav">
+                        <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
+                        <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>
+                    </div>
+                    <div className="nav">
+                        <img src="/images/trackstatuslogo.png" className="logo-events" alt="trackstatuslogo" />
+                        <a href="#home"><Link to={'/trackstatus'} class='link'>Track Status</Link></a>
+                    </div>
+                    <button className="logout-button">Logout</button>
+                </div>
+            </nav>
             <div className="raisequeryform">
                 <h1 class="title-page">RAISE A QUERY</h1>
                 <form className="queryform">

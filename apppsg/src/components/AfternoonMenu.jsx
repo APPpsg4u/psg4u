@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './AfternoonMenu.css';
 import Footer from "./Footer";
-import { Link } from 'react-router-dom';
+import Navbar from "./Navbar";
 
 export const AfternoonMenu = () => {
 
@@ -45,16 +45,7 @@ export const AfternoonMenu = () => {
 
   return (
     <div className='afternoonmenu'>
-      <nav className="eventsBar">
-        <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
-        <div className="nav-list-events">
-            <div className="nav">
-                <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
-                <a href='#home'><Link to={'/main'} class='link'>Home</Link></a>
-            </div>
-            <button className="logout-button">Logout</button>
-        </div>
-      </nav>
+      <Navbar />
 
       <div className='foodmrng'>
         <nav>
