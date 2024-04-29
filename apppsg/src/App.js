@@ -11,7 +11,10 @@ import { MorningMenu } from './components/MorningMenu.jsx';
 import { AfternoonMenu } from './components/AfternoonMenu.jsx';
 import { LostandFound } from './components/LostandFound.jsx';
 import TrackStatus from "./components/TrackStatus";
-//import SuggestForm from "./components/SuggestForm";
+import SuggestForm from "./components/SuggestForm";
+import Reward from "./components/Reward";
+import BookClassroom from './components/BookClassroom.jsx';
+import BookClassroomTrackStatus from './components/BookClassroomTrackStatus';
 
 function App() {
   return (
@@ -29,6 +32,10 @@ function App() {
           <Route path="/afternoonmenu" element={<AfternoonMenu />}/>
           <Route path="/lostandfound" element={<LostandFound />} />
           <Route path="/trackstatus" element={<TrackStatus />} />
+          <Route path="/leveluplink" element={<SuggestForm />} />
+          <Route path="/reward" element={<Reward />} />
+          <Route path="/bookclassroom" element={<BookClassroom />} />
+          <Route path="/bookclassroomtrackstatus" element={<BookClassroomTrackStatus />} />
         </Routes>
       </Router>
     </div>

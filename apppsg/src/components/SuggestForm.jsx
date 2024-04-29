@@ -49,7 +49,7 @@ function SuggestForm() {
                         </label>
                         <input type="text" className="type-text"></input>
                     </div>
-                    <button type="submit" className="submit-suggestion">Submit</button>
+                    <button type="submit" className="submit-suggestion"><Link to={'/reward'}>Submit</Link></button>
                 </form>
             </div>
             <Footer />
