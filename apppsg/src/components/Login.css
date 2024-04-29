@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-body{
+.login{
     background-image: url('../../public/images/pencil_sketch.png');
     background-size:cover;
     background-position:center;
@@ -99,4 +99,7 @@ form{
     color:#D0E1FB;
     text-decoration:underline;
     text-decoration-color: #000000;
+}
+#categoryinput{
+    margin-left: 20px;
 }

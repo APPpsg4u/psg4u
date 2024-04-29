@@ -29,7 +29,7 @@ function ForgotPassword(){
                     <label>
                         OTP:
                     </label>
-                    <input type="password" name="password" className="input"/>
+                    <input type="password" name="password" className="input" id="otpinput"/>
                     </div>
                     <button type="submit" class="submit"><Link to={'/confirmpassword'} className="link">Verify</Link></button>
                 </form>

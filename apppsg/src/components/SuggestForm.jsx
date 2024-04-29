@@ -25,33 +25,34 @@ function SuggestForm() {
                 <form className="queryform">
                     <div className="inputelement">
                         <label for="category">
-                            SUBJECT:
+                            SUBJECT
                         </label>
-                        <select name="category" className="select-option">
+                        <select name="category" className="select-option" id="subjectinput">
                             <option>Lab</option>
                         </select>
                     </div>
                     <div className="inputelement">
                         <label for="category">
-                            RESOURCE:
+                            RESOURCE
                         </label>
-                        <input type="text" className="type-text"></input>
+                        <input type="text" className="type-text" id="resourceinput"></input>
                     </div>
                     <div className="inputelement">
                         <label for="category">
-                            ANY ATTACHMENT:
+                            ANY ATTACHMENT
                         </label>
-                        <input type="text" className="type-text"></input>
+                        <input type="text" className="type-text" id="anyinput"></input>
                     </div>
                     <div className="inputelement">
                         <label for="category">
-                            YOUR NAME(OPTIONAL):
+                            YOUR NAME
                         </label>
-                        <input type="text" className="type-text"></input>
+                        <input type="text" className="type-text" id="yournameinput"></input>
                     </div>
-                    <button type="submit" className="submit-suggestion"><Link to={'/reward'}>Submit</Link></button>
+                    <button type="submit" className="submit-suggestion"><Link to={'/reward'} class="link">Submit</Link></button>
                 </form>
             </div>
+            <p className="optional">(OPTIONAL)</p>
             <Footer />
         </div>
     )

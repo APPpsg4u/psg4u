@@ -57,3 +57,31 @@
     align-self:center;
     margin-top:20px;
 }
+.book-classroom:hover{
+    background-color: black;
+    cursor: pointer;
+    color: #6C8BBA;
+}
+#capacityinput{
+    margin-left: 39px;
+    width: 280px;
+}
+#floorinput{
+    margin-left: 73px;
+    padding: 16px;
+}
+#blockinput{
+    margin-left: 60px;
+}
+#eventinput{
+    width: 280px;
+}
+#timeinput{
+    padding: 16px;
+}
+#dateinput{
+    padding: 16px;
+}
+#ackinput{
+    width: 280px;
+}

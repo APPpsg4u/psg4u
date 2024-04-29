@@ -57,3 +57,26 @@
     align-self:center;
     margin-top:20px;
 }
+.register-complaint:hover{
+    background-color: black;
+    color:#6C8BBA;
+    cursor: pointer;
+}
+#flinput{
+    margin-left: 86px;
+}
+#cateinput{
+    margin-left: 45px;
+    padding: 16px;
+    width: 320px;
+}
+#anycommentlabel{
+    padding-left: 220px;
+}
+#anycommentinput{
+    width: 254px;
+}
+#complaintinput{
+    width: 280px;
+    padding: 16px;
+}

@@ -26,17 +26,17 @@ function RaiseQuery() {
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                CATEGORY:
+                                CATEGORY
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="cateinput">
                                 <option>Lab</option>
                             </select>
                         </div>
                         <div className="inputelement">
                             <label for="category">
-                                COMPLAINT:
+                                COMPLAINT
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="complaintinput">
                                 <option>Lab</option>
                             </select>
                         </div>
@@ -44,21 +44,21 @@ function RaiseQuery() {
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                FLOOR:
+                                FLOOR
                             </label>
-                            <input type="text" className="type-text"></input>
+                            <input type="text" className="type-text" id="flinput"></input>
                         </div>
                         <div className="inputelement">
-                            <label for="category">
-                                ANY COMMENTS:
+                            <label for="category" id="anycommentlabel">
+                                ANY COMMENTS
                             </label>
-                            <input type="text" className="type-text"></input>
+                            <input type="text" className="type-text" id="anycommentinput"></input>
                         </div>
                     </div>
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                HALL NUMBER:
+                                HALL NUMBER
                             </label>
                             <input type="text" className="type-text"></input>
                         </div>

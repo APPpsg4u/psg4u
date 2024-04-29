@@ -65,3 +65,35 @@
     align-self:center;
     margin-top:20px;
 }
+.submit-suggestion:hover{
+    cursor: pointer;
+}
+#subjectinput{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.optional{
+    font-size: 15px;
+    position: absolute;
+    top: 80%;
+    left: 6.5%;
+    font-weight: bold;
+}
+#yournameinput{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 280px;
+}
+#resourceinput{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+#subjectinput{
+    margin-left: 113px;
+    padding: 16px;
+    margin-top: 40px;
+}
+#anyinput{
+    width: 500px;
+}

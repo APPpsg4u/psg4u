@@ -26,9 +26,9 @@ function BookClassroom() {
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                BLOCK:
+                                BLOCK
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="floorinput"> 
                                 <option>A</option>
                                 <option>B</option>
                                 <option>C</option>
@@ -36,9 +36,9 @@ function BookClassroom() {
                         </div>
                         <div className="inputelement">
                             <label for="category">
-                                DATE:
+                                DATE
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="dateinput">
                                 <option>Monday</option>
                             </select>
                         </div>
@@ -46,9 +46,9 @@ function BookClassroom() {
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                FLOOR:
+                                FLOOR
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="floorinput">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -56,9 +56,9 @@ function BookClassroom() {
                         </div>
                         <div className="inputelement">
                             <label for="category">
-                                TIME:
+                                TIME
                             </label>
-                            <select name="category" className="select-option">
+                            <select name="category" className="select-option" id="timeinput">
                                 <option>Morning</option>
                             </select>
                         </div>
@@ -66,23 +66,23 @@ function BookClassroom() {
                     <div className="rowinput">
                         <div className="inputelement">
                             <label for="category">
-                                CAPACITY:
+                                CAPACITY
                             </label>
-                            <input type="text" className="type-text"></input>
+                            <input type="text" className="type-text" id="capacityinput"></input>
                         </div>
                         <div className="inputelement">
                             <label for="category">
-                                ACKNOWLEDGEMENT:
+                                ACKNOWLEDGEMENT
                             </label>
-                            <input type="text" className="type-text"></input>
+                            <input type="text" className="type-text" id="ackinput"></input>
                         </div>
                     </div>
                     <div className="rowinput">
                     <div className="inputelement">
                             <label for="category">
-                                EVENT NAME:
+                                EVENT NAME
                             </label>
-                            <input type="text" className="type-text"></input>
+                            <input type="text" className="type-text" id="eventinput"></input>
                         </div>
                     </div>
                     <button type="submit" className="book-classroom">Book</button>

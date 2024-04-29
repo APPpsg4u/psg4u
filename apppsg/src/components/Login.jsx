@@ -23,7 +23,7 @@ function Login(){
                     <label>
                         Category:
                     </label>
-                    <select name="category" className="input">
+                    <select name="category" className="input" id="categoryinput">
                         <option>Representative</option>
                         <option>Student</option>
                     </select>

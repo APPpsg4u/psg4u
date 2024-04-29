@@ -22,14 +22,14 @@ function ConfirmPassword(){
                     <label>
                         User ID:
                     </label>
-                    <input type="text" name="name" className="input"/>
+                    <input type="text" name="name" className="input" id="useridinput"/>
                     </div>
 
                     <div className="row">
                     <label>
                         Password:
                     </label>
-                    <input type="password" name="password" className="input"/>
+                    <input type="password" name="password" className="input" id="passinput"/>
                     </div>
 
                     <div className="row">
@@ -39,7 +39,7 @@ function ConfirmPassword(){
                     <input type="password" name="password" className="input"/>
                     </div>
                     
-                    <button type="submit" class="submit"><Link to={'/login'}>Confirm</Link></button>
+                    <button type="submit" class="submit"><Link to={'/login'} class="link">Confirm</Link></button>
                 </form>
             </div>
             </div>
