@@ -15,6 +15,7 @@ import SuggestForm from "./components/SuggestForm";
 import Reward from "./components/Reward";
 import BookClassroom from './components/BookClassroom.jsx';
 import BookClassroomTrackStatus from './components/BookClassroomTrackStatus';
+import { CalculateGPA } from './components/CalculateGPA.jsx';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/reward" element={<Reward />} />
           <Route path="/bookclassroom" element={<BookClassroom />} />
           <Route path="/bookclassroomtrackstatus" element={<BookClassroomTrackStatus />} />
+          <Route path="/calculategpa" element={<CalculateGPA />} />
         </Routes>
       </Router>
     </div>

@@ -41,7 +41,7 @@ export const Main = () => {
             
 
             <img src="/images/emoji.png" className='emoji1' alt='emoji1'/>
-            <p>Calculate GPA</p>
+            <p><Link to={'/calculategpa'} class="link">Calculate GPA</Link></p>
             <img src="/images/emoji.png" className='emoji2' alt='emoji2'/>
             <p><Link to={'/leveluplink'} class="link">Level-up Links</Link></p>
             <img src="/images/emoji.png" className='emoji3' alt='emoji3'/>
