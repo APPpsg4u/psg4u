@@ -6,9 +6,9 @@ import "./SuggestForm.css";
 function SuggestForm() {
     return (
         <div className="suggest-form-page">
-            <nav className="raiseQueryBar">
+            <nav className="suggestFormBar">
                 <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
-                <div className="nav-list-raise-query">
+                <div className="nav-list-suggest-form">
                     <div className="nav">
                         <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
                         <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>

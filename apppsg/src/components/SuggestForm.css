@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-.raise-query-page{
+.suggest-form-page{
     font-family:'Karla';
 }
 .title-page{
     text-align:center;
     font-size:36px;
 }
-.raiseQueryBar{
+.suggestFormBar{
     margin:20px;
     display:flex;
     justify-content:space-between;
 }
-.nav-list-raise-query{
+.nav-list-suggest-form{
     display:flex;
     justify-content:space-between;
     align-items:center;
     gap:50px;
 }
-.raiseQueryBar a{
+.suggestFormBar a{
     font-size:24px;
     text-decoration: none;
     color:black;
 }
-.raiseQueryBar a:hover{
+.suggestFormBar a:hover{
     text-decoration: underline;
 }
 .suggestform{
