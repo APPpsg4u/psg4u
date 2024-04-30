@@ -39,7 +39,7 @@ function ConfirmPassword(){
                     <input type="password" name="password" className="input"/>
                     </div>
                     
-                    <button type="submit" class="submit"><Link to={'/login'} class="link">Confirm</Link></button>
+                    <button type="submit" class="submit"><Link to={'/login'} class="link" id="link">Confirm</Link></button>
                 </form>
             </div>
             </div>

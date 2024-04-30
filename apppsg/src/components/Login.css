@@ -86,8 +86,7 @@ form{
     transition:all 0.2s;
 }
 .submit:hover{
-    color:#D0E1FB;
-    
+    background-color: #000000;
 }
 .link{
     color:black;

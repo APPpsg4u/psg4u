@@ -84,6 +84,15 @@ export const CalculateGPA = () => {
                 <p className='calculatebutton'>Calculate</p>
                 
         </div>  
+        <div className='gparesult'>
+        <div className="sub1">
+                        <label for="category">
+                                RESULT:
+                        </label>
+                        <input type="text" className='sub1input' id='resultinput'></input>
+                        
+                </div>
+        </div>
         <Footer />   
             
         </div>
