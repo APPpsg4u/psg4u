@@ -36,7 +36,7 @@ export const Main = () => {
       </nav>
       <section id='sect'>
         <div className='studies'>
-            <img src="/images/clip.png" className='clip' alt='clip'/>
+            <img src="/images/clip_blue.png" className='clip' alt='clip'/>
             <div className='title'>Studies</div>
             
 
