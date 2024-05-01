@@ -1,16 +1,15 @@
 .navdown{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  url('../../public/images/mainimg.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),  url('../../public/images/mainimg.png');
     height: 40px;
     padding: 40px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100vw;
     height: 100vh;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
+
 }
-.selectsem{
-    margin-bottom: 90px;
-}
+
 .selectsem label{
     font-size: 20px;
     margin-left: 20%;
@@ -134,4 +133,15 @@
 }
 .dotnumber span{
     letter-spacing: 18px;
+}
+#resultinput{
+    width: 120px;
+    height: 40px;
+}
+.gparesult{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),  url('../../public/images/mainimg.png');
+}
+.gparesult .sub1{
+    padding: 40px;
+    margin-top: 10px;
 }
