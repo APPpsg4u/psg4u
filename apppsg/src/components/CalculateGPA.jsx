@@ -44,9 +44,9 @@ export const CalculateGPA = () => {
                                 SUBJECT 1:
                         </label>
                         <input type="text" className='sub1input'></input>
-                        <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <input type="range" min="5" max="10" defaultValue="0" class="slider" id="myRange"></input>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
 
                 <div className="sub1">
@@ -55,8 +55,8 @@ export const CalculateGPA = () => {
                         </label>
                         <input type="text" className='sub1input'></input>
                         <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
                 <div className="sub1">
                         <label for="category">
@@ -64,8 +64,8 @@ export const CalculateGPA = () => {
                         </label>
                         <input type="text" className='sub1input'></input>
                         <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
                 <div className="sub1">
                         <label for="category">
@@ -73,8 +73,8 @@ export const CalculateGPA = () => {
                         </label>
                         <input type="text" className='sub1input'></input>
                         <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
                 <div className="sub1">
                         <label for="category">
@@ -82,8 +82,8 @@ export const CalculateGPA = () => {
                         </label>
                         <input type="text" className='sub1input'></input>
                         <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
                 <div className="sub1">
                         <label for="category">
@@ -91,8 +91,8 @@ export const CalculateGPA = () => {
                         </label>
                         <input type="text" className='sub1input'></input>
                         <input type="range" min="0" max="10" defaultValue="0" class="slider" id="myRange"></input>
-                        <p className='dottedline'>| | | | | | | | | | |</p>
-                        <p className='dotnumber'><span>0 1 2 3 4 5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
+                        <p className='dottedline'>| | | | | |</p>
+                        <p className='dotnumber'><span>5 6 7 8 9</span>&#160;&#160;&#160;&#160;&#160;10</p>
                 </div>
                 
                 <p className='calculatebutton'>Calculate</p>
