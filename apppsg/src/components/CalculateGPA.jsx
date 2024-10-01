@@ -2,6 +2,7 @@ import React from 'react'
 import './CalculateGPA.css';
 import Footer from "./Footer";
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
 
 export const CalculateGPA = () => {
   return (
@@ -17,7 +18,7 @@ export const CalculateGPA = () => {
                         <img src="/images/progress-check.png" className="logo-events" alt="trackstatuslogo" />
                         <a href="#strategy">Build Strategy</a>
                     </div>
-                    <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+                    <Link to={'/'} className="link" id="link"><Button name='Logout'/></Link>
                 </div>
             </nav>
         <div className='navdown'>

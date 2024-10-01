@@ -1,6 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import {Link} from "react-router-dom";
+import { Button } from "./Button";
 
 function Navbar() {
     return <nav className="eventsBar">
@@ -10,7 +11,7 @@ function Navbar() {
                 <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
                 <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>
             </div>
-            <button className="logout-button"><Link to={'/'} className="link" id="link">Logout</Link></button>
+            <Link to={'/'} class="link"><Button name="Logout"/></Link>
         </div>
     </nav>
 }

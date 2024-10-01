@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import './Login.css';
 import Footer from "./Footer";
+import { Button } from "./Button";
 
 function Login(){
     return (
@@ -46,7 +47,7 @@ function Login(){
                         <input type="password" name="password" className="input"/>
                     </div>
                     </div>
-                    <button type="submit" class="submit"><Link to={'/main'} id="link" class="link">Submit</Link></button>
+                    <Link to={'/main'} class="link"><Button name="Submit" /></Link>
                     <Link to={'forgotpassword'} class="link">Forgot Password?</Link>
                 </form>
             </div>

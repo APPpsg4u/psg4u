@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Main.css';
 import {Link} from "react-router-dom";
 import Footer from "./Footer";
+import { Button } from './Button';
 
 export const Main = () => {
 
@@ -24,19 +25,23 @@ export const Main = () => {
 
   return (
     <div className='main' id='main'>
-      <nav className='navbar'>
-      <img src="/images/logo_psg4u.png" alt="PSG4U Logo" className='homelogo'/>
-        <ul>
-          <img src="/images/homelogo.png" className='homeimg' alt='homeimg'/>
-          <li>Home</li>
-          <img src="/images/person.png" className='personimg' alt='personimg'/>
-          <li onClick={myacc}>My account</li>
-          <li className='logout'><Link to={'/'} id='link'>Logout</Link></li>
-        </ul>
-      </nav>
+      <nav className="raiseQueryBar">
+                <img src="/images/logo_psg4u.png" alt="psg4u logo" className="logo-events-page" />
+                <div className="nav-list-raise-query">
+                    <div className="nav">
+                        <img src="/images/homelogo.png" className="logo-events" alt="homelogo" />
+                        <a href="#home"><Link to={'/main'} class='link'>Home</Link></a>
+                    </div>
+                    <div className="nav">
+                        <img src="/images/person.png" className="logo-events" alt="trackstatuslogo" />
+                        <a href="#strategy" onClick={myacc}>My account</a>
+                    </div>
+                    <Link to={'/'} className="link" id="link"><Button name='Logout'/></Link>
+                </div>
+            </nav>
       <section id='sect'>
         <div className='studies'>
-            <img src="/images/clip_blue.png" className='clip' alt='clip'/>
+            <img src="/images/clip.png" className='clip' alt='clip'/>
             <div className='title'>Studies</div>
             
 
@@ -51,7 +56,7 @@ export const Main = () => {
         </div>
 
         <div className='studies' id='query'>
-            <img src="/images/clip_red.png" className='clip' alt='clip'/>
+            <img src="/images/clip_red.png" className='rclip' alt='clip'/>
             <div className='title'>Raise query</div>
             
 
@@ -63,7 +68,7 @@ export const Main = () => {
         </div>
 
         <div className='studies' id='canteen'>
-            <img src="/images/clip_green.png" className='clip' alt='clip'/>
+            <img src="/images/clip_green.png" className='gclip' alt='clip'/>
             <div className='title'>Canteen</div>
             
 
